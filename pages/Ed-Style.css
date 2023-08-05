@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0%;
+    margin: 0%;
+};
+
+body {
+  background-color: #000; 
+  font-family: 'Montserrat', sans-serif;
+  overflow-y: hidden;
+  width: auto;
+}
+
+#nav {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #5DA3FA;
+    padding: 22px 25px;
+    justify-content: space-around;
+    width: auto;
+}
+#nav a {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.navOptions:hover {
+    box-shadow: 5px 5px 5px #00000034;
+}
+
+#herosection {
+    background-image: url(../assets/pexels-pavel-danilyuk-5496464\ 3.jpg);
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -20px;
+}
+.title {
+    font-size: 80px;
+    margin-top: 220px;
+    background-color: #06060600;
+    padding: 25px 40px;
+    font-weight: 800;
+    color: #FFF;
+}
+.title:hover {
+    background-color: #00000034;
+}
+#herosection .left {
+    width: 70%;
+    align-items: center;
+    float: left;    
+    justify-content: center;
+    padding: 5%;
+}
+#herosection .span {
+    font-weight: 300;
+    font-size: 50px;
+}
+#herosection .right {
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #5DA3FA;
+    align-items: center;
+    padding: 0.52em 1em;
+}
+.card {
+    padding: 20px;
+    height: 15em;
+    overflow-y: scroll;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px #00000034;
+
+}
+#card-title {
+    color: #FFF;
+    font-size: 25px;
+}
+.card-text {
+    font-size: 18px;
+    color: #FFF;
+}
+#avatar {
+    background-color: transparent;
+    border-radius: 1000px;
+    padding: 2em;
+    border: 2px solid #5DA3FA;
+}
+.card-body {
+    margin: 1em 0;
+}
+
+.address {
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.icon-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon-body img {
+    height: 45px;
+    margin: 2em 1.5em;
+}
+.icon-body img:hover {
+    box-shadow: 5px 5px 5px #00000034;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* ACCORDION */
+
+.accordion-button {
+    font-weight: bold;
+}
+.accordion-body {
+    background-color: #5DA3FA;
+
+}
